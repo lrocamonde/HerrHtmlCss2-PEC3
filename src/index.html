@@ -1,26 +1,34 @@
 <!DOCTYPE html>
 
-<html>
+<html class="box-border">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
     <title>AC/BC</title>
   </head>
-  <body class="p-0 bg-backblue md:ml-14">
+  <body class="p-0 bg-backblue md:ml-14 text-center text-black font-normal font-helvet bk1:mx-12">
     <include src="./views/header.html"></include>
-    <div class="contenedor">
-      <div class="titulo-container">
-        <h1 class="titulo">AC/BC</h1>
+    <div class="contenedor grid grid-rows-3 grid-cols-small justify-items-end gap-0 mb-7 
+    bk1:grid-cols-medium bk1:grid-rows-medium bk1:justify-items-center
+    bk2:grid-rows-4 bk2:grid-cols-large">
+      <div class="titulo-container z-10 row-start-1 row-end-2 col-start-2 col-end-3 
+      bk1:row-start-1 bk1:row-end-2 bk1:col-start-5 bk1:col-end-6
+      bk2:row-start-1 bk2:row-end-2 bk2:col-start-3 bk2:col-end-4">
+        <h1 class="titulo text-red text-5xl">AC/BC</h1>
       </div>
-      <div class="descripcion-container">
-        <p class="descripcion">Este verano iniciaremos los conciertos por toda España. Después de mucho tiempo sin poder hacer ningún tipo de evento ni festival vamos a volver con muchas fechas alrededor de todo el país para que todos podáis venir a vernos. Os esperemos a todos con muchas ganas! Las entradas solo se pondrán a la venta desde nuestra página.</p>
+      <div class="descripcion-container bg-white row-[-2/-1] col-[1/-1] items-center grid
+      bk2:rounded-r-3xl bk2:row-start-1 bk2:row-end-5 bk2:col-start-4 bk2:col-end-5">
+        <p class="descripcion m-2.5">Este verano iniciaremos los conciertos por toda España. Después de mucho tiempo sin poder hacer ningún tipo de evento ni festival vamos a volver con muchas fechas alrededor de todo el país para que todos podáis venir a vernos. Os esperemos a todos con muchas ganas! Las entradas solo se pondrán a la venta desde nuestra página.</p>
       </div>
-      <div class="imagen-container">
-        <img src="../src/assets/images/concierto.png" alt="Concierto de rock" class="imagen">
+      <div class="imagen-container row-[1/-2] col-[1/-1]
+      bk2:row-[1/-1] bk2:col-start-1 bk2:col-end-4">
+        <img src="../src/assets/images/concierto.png" alt="Concierto de rock" class="imagen w-full h-auto min-w-480 align-middle bk2:rounded-l-3xl">
       </div>
-      <div class="compra-container">
-        <button class="compra btn btn-primary">COMPRA TUS ENTRADAS</button>
+      <div class="compra-container row-start-2 row-end-3 col-start-2 col-end-3 grid content-end mb-2.5
+      bk1:row-start-3 bk1:row-end-4 bk1:col-start-3 bk1:col-end-4 bk1:content-around bk1:justify-center
+      bk2:row-[-2/-1] bk2:col-start-2 bk2:col-end-3 bk2:content-start">
+        <button class="compra bg-white p-3 text-sm leading-none">COMPRA TUS ENTRADAS</button>
       </div>
     </div>
     <include src="./views/footer.html"></include>
