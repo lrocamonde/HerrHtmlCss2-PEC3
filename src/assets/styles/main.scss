@@ -27,7 +27,14 @@
 
 @import "layouts/home";
 
-
+@layer components {
+    .cardText {
+        @apply bg-backcard mb-2
+    }
+    .cardImage{
+        @apply w-[40vw] h-[12vh] rounded bk2:w-full bk2:h-[20vh]
+    }
+}
 
 @tailwind utilities;
 /**

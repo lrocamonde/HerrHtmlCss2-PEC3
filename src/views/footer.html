@@ -1,46 +1,23 @@
-<footer class="bk1:mx-12 h-[10vh]">
+<footer class="bk1:mx-12 h-[10vh] shrink-0">
     <hr  class="m-2 opacity-25">
     <nav class="px-2 sm:px-4 py-2.5 flex justify-between" >  
-        <a class="flex items-center text-black text-xl min-w-max" href="./index.html">
-          AC
-          <img src="./assets/images/rayo.svg" width="30" height="30" class="d-inline-block align-baseline" alt="">
-          BC
-        </a> 
-
-        <div class="flex items-center w-full justify-center">
-          <ul class="flex items-center w-full justify-around text-gray text-xl">
-            <li class="pr-1 hover:text-black">
-              <a href="./index.html">AC/BC<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="pr-1 hover:text-black">
-              <a href="./miembros.html">Miembros</a>
-            </li>
-            <li class="pr-1 hover:text-black">
-              <a href="#">Normativa</a>
-            </li>
-            <li class="pr-1 hover:text-black">
-              <a href="#">Contacto</a>
-            </li>
-          </ul>
-        </div>
-        <div class="flex items-center min-w-max">
-            <ul class="flex items-center h-full">
-                <li class="h-full">
-                    <a class="" href="#">
-                        <img src="./assets/images/google.svg" width="30" height="30" alt="">
-                    </a> 
-                </li>
-                <li class="h-full">
-                    <a class=" " href="#">
-                        <img src="./assets/images/facebook.svg" width="30" height="30"  alt="">
-                    </a> 
-                </li>
-                <li class="h-full">
-                    <a class="" href="#">
-                        <img src="./assets/images/twitter.svg" width="30" height="30" alt="">
-                    </a> 
-                </li>
-              </ul>
-        </div>
+      <include src="./components/nombre.html"></include>
+      <div class="flex items-center w-full justify-center">
+        <ul class="flex items-center w-full justify-around text-gray text-sm bk1:text-xl">
+          <li class="pr-1 hover:text-black">
+            <a href="./index.html">AC/BC<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="pr-1 hover:text-black">
+            <a href="./miembros.html">Miembros</a>
+          </li>
+          <li class="pr-1 hover:text-black">
+            <a href="#">Normativa</a>
+          </li>
+          <li class="pr-1 hover:text-black">
+            <a href="#">Contacto</a>
+          </li>
+        </ul>
+      </div>
+      <include src="./components/rrss.html"></include>
       </nav>
 </footer>

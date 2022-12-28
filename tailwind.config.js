@@ -7,7 +7,8 @@ module.exports = {
       white: '#f2f2f2',
       black: '#212529',
       gray: '#343a40',
-      red: 'red'
+      red: 'red',
+      backcard: '#d3d3d34d'
     },
     fontFamily: {
       'helvet': ["Segoe UI","Roboto","Helvetica Neue","Arial","sans-serif","Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"]
