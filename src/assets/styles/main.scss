@@ -29,7 +29,7 @@
 
 @layer components {
     .cardText {
-        @apply bg-backcard mb-2
+        @apply bg-backcard mb-1
     }
     .cardImage{
         @apply w-[40vw] h-[12vh] rounded bk2:w-full bk2:h-[20vh]
